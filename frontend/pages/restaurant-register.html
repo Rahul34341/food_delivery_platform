@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Restaurant | FoodieExpress</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="../dashboard.html" class="logo">FoodieExpress</a>
+            <div class="nav-links">
+                <a href="../dashboard.html">Dashboard</a>
+                <a href="../profile.html">My Profile</a>
+                <a href="restaurant-management.html">My Restaurants</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-section">
+        <div class="container">
+            <h1 class="page-title">Register Your Restaurant</h1>
+
+            <section class="card">
+                <div id="restaurantMessage" class="message"></div>
+
+                <form id="restaurantForm">
+
+                    <div class="form-group">
+                        <label for="name">Restaurant Name</label>
+                        <input type="text" id="name" minlength="2" maxlength="150" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea id="description" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" rows="3" minlength="5" maxlength="255" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" minlength="2" maxlength="100" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Contact Number</label>
+                        <input type="tel" id="phone" maxlength="20">
+                    </div>
+
+                    <button type="submit" class="btn">
+                        Register Restaurant
+                    </button>
+
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FoodieExpress. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/api.js"></script>
+    <script src="../assets/js/restaurant.js"></script>
+
+</body>
+</html>

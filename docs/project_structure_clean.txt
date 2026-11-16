@@ -1,0 +1,175 @@
+Folder PATH listing
+Volume serial number is 960D-D7FF
+C:\USERS\RAHUL\FOOD_DELIVERY_PLATFORM\BACKEND\APP
+|   main.py
+|   __init__.py
+|   
++---core
+|   |   config.py
+|   |   logging_config.py
+|   |   security.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           config.cpython-311.pyc
+|           config.cpython-314.pyc
+|           logging_config.cpython-311.pyc
+|           security.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           __init__.cpython-314.pyc
+|           
++---database
+|   |   base.py
+|   |   connection.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           base.cpython-311.pyc
+|           connection.cpython-311.pyc
+|           connection.cpython-314.pyc
+|           __init__.cpython-311.pyc
+|           __init__.cpython-314.pyc
+|           
++---dependencies
+|   |   auth.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           auth.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---models
+|   |   auth_session.py
+|   |   cart.py
+|   |   cart_item.py
+|   |   delivery.py
+|   |   menu_category.py
+|   |   menu_item.py
+|   |   notification.py
+|   |   order.py
+|   |   order_item.py
+|   |   password_reset_token.py
+|   |   payment.py
+|   |   restaurant.py
+|   |   review.py
+|   |   role.py
+|   |   user.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           auth_session.cpython-311.pyc
+|           cart.cpython-311.pyc
+|           cart_item.cpython-311.pyc
+|           delivery.cpython-311.pyc
+|           menu_category.cpython-311.pyc
+|           menu_item.cpython-311.pyc
+|           notification.cpython-311.pyc
+|           order.cpython-311.pyc
+|           order_item.cpython-311.pyc
+|           password_reset_token.cpython-311.pyc
+|           payment.cpython-311.pyc
+|           restaurant.cpython-311.pyc
+|           review.cpython-311.pyc
+|           role.cpython-311.pyc
+|           user.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---routers
+|   |   auth.py
+|   |   cart.py
+|   |   deliveries.py
+|   |   menu.py
+|   |   notifications.py
+|   |   orders.py
+|   |   payments.py
+|   |   restaurants.py
+|   |   reviews.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           auth.cpython-311.pyc
+|           cart.cpython-311.pyc
+|           deliveries.cpython-311.pyc
+|           menu.cpython-311.pyc
+|           notifications.cpython-311.pyc
+|           orders.cpython-311.pyc
+|           payments.cpython-311.pyc
+|           restaurants.cpython-311.pyc
+|           reviews.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---schemas
+|   |   auth.py
+|   |   cart.py
+|   |   delivery.py
+|   |   menu.py
+|   |   notification.py
+|   |   order.py
+|   |   payment.py
+|   |   restaurant.py
+|   |   review.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           auth.cpython-311.pyc
+|           cart.cpython-311.pyc
+|           delivery.cpython-311.pyc
+|           menu.cpython-311.pyc
+|           notification.cpython-311.pyc
+|           order.cpython-311.pyc
+|           payment.cpython-311.pyc
+|           restaurant.cpython-311.pyc
+|           review.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---services
+|       __init__.py
+|       
+\---__pycache__
+        main.cpython-311.pyc
+        __init__.cpython-311.pyc
+        __init__.cpython-314.pyc
+        
+Folder PATH listing
+Volume serial number is 960D-D7FF
+C:\USERS\RAHUL\FOOD_DELIVERY_PLATFORM\FRONTEND
+|   dashboard.html
+|   index.html
+|   login.html
+|   profile.html
+|   register.html
+|   
++---assets
+|   +---css
+|   |       style.css
+|   |       
+|   +---images
+|   \---js
+|           api.js
+|           auth.js
+|           change-password.js
+|           config.js
+|           dashboard.js
+|           forgot-password.js
+|           profile.js
+|           reset-password.js
+|           restaurant.js
+|           
+\---pages
+        change-password.html
+        forgot-password.html
+        reset-password.html
+        restaurant-management.html
+        restaurant-register.html
+        
+Folder PATH listing
+Volume serial number is 960D-D7FF
+C:\USERS\RAHUL\FOOD_DELIVERY_PLATFORM\DOCS
+    alembic_migrations.txt
+    database_schema.sql
+    er_diagram.md
+    project_structure.txt
+    project_structure_clean.txt
+    
+No subfolders exist 
+

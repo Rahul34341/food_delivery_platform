@@ -1,0 +1,36 @@
+Folder PATH listing
+Volume serial number is 960D-D7FF
+C:\USERS\RAHUL\FOOD_DELIVERY_PLATFORM\BACKEND\ALEMBIC
+¦   env.py
+¦   README
+¦   script.py.mako
+¦   
++---versions
+¦   ¦   0d6df55e1a0b_create_carts_and_cart_items.py
+¦   ¦   15b2d871bf90_create_password_reset_tokens_table.py
+¦   ¦   1d3d5104b7ac_create_reviews_table.py
+¦   ¦   2e24cb190a47_create_notifications_table.py
+¦   ¦   43dae4879128_create_orders_and_order_items.py
+¦   ¦   45101aa5930d_create_users_roles_and_restaurants_.py
+¦   ¦   566eebc07a6c_create_payments_table.py
+¦   ¦   7ea3f63dc393_create_deliveries_table.py
+¦   ¦   a06d266bbd2f_add_restaurant_logo_and_banner.py
+¦   ¦   a19c6f6ae6db_create_menu_categories_and_menu_items.py
+¦   ¦   b991458a3b99_create_auth_sessions_table.py
+¦   ¦   
+¦   +---__pycache__
+¦           0d6df55e1a0b_create_carts_and_cart_items.cpython-311.pyc
+¦           15b2d871bf90_create_password_reset_tokens_table.cpython-311.pyc
+¦           1d3d5104b7ac_create_reviews_table.cpython-311.pyc
+¦           2e24cb190a47_create_notifications_table.cpython-311.pyc
+¦           43dae4879128_create_orders_and_order_items.cpython-311.pyc
+¦           45101aa5930d_create_users_roles_and_restaurants_.cpython-311.pyc
+¦           566eebc07a6c_create_payments_table.cpython-311.pyc
+¦           7ea3f63dc393_create_deliveries_table.cpython-311.pyc
+¦           a06d266bbd2f_add_restaurant_logo_and_banner.cpython-311.pyc
+¦           a19c6f6ae6db_create_menu_categories_and_menu_items.cpython-311.pyc
+¦           b991458a3b99_create_auth_sessions_table.cpython-311.pyc
+¦           
++---__pycache__
+        env.cpython-311.pyc
+        

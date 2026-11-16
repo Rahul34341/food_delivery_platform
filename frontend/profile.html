@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile | FoodieExpress</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="dashboard.html" class="logo">FoodieExpress</a>
+            <div class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="profile.html">My Profile</a>
+                <a href="pages/change-password.html">Change Password</a>
+                <a href="#" id="logoutButton">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-section">
+        <div class="container">
+            <h1 class="page-title">My Profile</h1>
+
+            <div id="profileMessage" class="message"></div>
+
+            <section class="card">
+                <h2>Account Details</h2>
+
+                <form id="profileForm">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" minlength="3" maxlength="100" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="full_name">Full Name</label>
+                        <input type="text" id="full_name" minlength="2" maxlength="150" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" maxlength="20">
+                    </div>
+
+                    <button type="submit" class="btn">
+                        Update Profile
+                    </button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FoodieExpress. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/profile.js"></script>
+
+</body>
+</html>

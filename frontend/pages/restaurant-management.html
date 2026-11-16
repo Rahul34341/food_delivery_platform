@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurants | FoodieExpress</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="../dashboard.html" class="logo">FoodieExpress</a>
+
+            <div class="nav-links">
+                <a href="../dashboard.html">Dashboard</a>
+                <a href="../profile.html">My Profile</a>
+                <a href="restaurant-register.html">Register Restaurant</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-section">
+        <div class="container">
+
+            <h1 class="page-title">My Restaurants</h1>
+
+            <div id="restaurantListMessage" class="message"></div>
+
+            <div class="card">
+                <div class="navbar-content">
+                    <h2>Registered Restaurants</h2>
+                    <a href="restaurant-register.html" class="btn">
+                        + Add Restaurant
+                    </a>
+                </div>
+
+                <div id="restaurantList" class="grid mt-3">
+                    <p class="text-muted">Loading restaurants...</p>
+                </div>
+            </div>
+                <div class="card">
+    <h2>Upload Restaurant Images</h2>
+    <p class="text-muted">
+        Select a restaurant and upload its logo or banner.
+    </p>
+
+    <div class="form-group">
+        <label for="uploadRestaurantId">Restaurant ID</label>
+        <input
+            type="number"
+            id="uploadRestaurantId"
+            min="1"
+            placeholder="Enter restaurant ID"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="restaurantLogo">Restaurant Logo</label>
+        <input
+            type="file"
+            id="restaurantLogo"
+            accept="image/jpeg,image/png,image/webp"
+        >
+        <button type="button" class="btn mt-3" id="uploadLogoButton">
+            Upload Logo
+        </button>
+    </div>
+
+    <div class="form-group">
+        <label for="restaurantBanner">Restaurant Banner</label>
+        <input
+            type="file"
+            id="restaurantBanner"
+            accept="image/jpeg,image/png,image/webp"
+        >
+        <button type="button" class="btn mt-3" id="uploadBannerButton">
+            Upload Banner
+        </button>
+    </div>
+
+    <div id="imageUploadMessage" class="message"></div>
+</div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FoodieExpress. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/api.js"></script>
+    <script src="../assets/js/restaurant.js"></script>
+
+</body>
+</html>
